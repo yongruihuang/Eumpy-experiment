@@ -13,6 +13,7 @@ What things you need to install the software and how to install them
 ## Note
 Before processing the data, the structure of data should be organized in the following format and put it under the directory 'dataset'.
 
+```
 dataset
   |- MAHNOB-HCI
   | |- 1
@@ -26,7 +27,7 @@ dataset
   | | |- trial_1
   | | |- trial_2
   | | |- trial_..
-
+```
 
 Where MAHNOB-HCI represents the name of the dataset, '1' represents the id of the subject and trial_1 represets one trial. In each trial, 3 files are presented. 'faces.npy' contains the facial expression data, in our dataset, it is a numpy array-like with shape (?, 48, 48). 'label.csv' contains the ground truth label for this trial. 
 
